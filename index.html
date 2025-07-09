@@ -6,8 +6,8 @@
     <link rel="icon" type="image/png" href="./images/arithmagician_icon.png">
     <title>Arithmagician</title>
     <link rel="stylesheet" href="/index.css">
-    <script src="/js/images.js" type="module"></script>
-    <script src="/js/index.js" type="module"></script>
+    <script src="./src/js/images.js" type="module"></script>
+    <script src="./src/js/index.js" type="module"></script>
 </head>
 <body>
     <img src="./images/gold_wall_template.png" class="image-asset connected-image" data-type="TypeGoldWall">
@@ -65,6 +65,7 @@
             <div id="buttons-container">
                 <div id="play-button" class="button">Play</div>
                 <div id="reset-button" class="button">Reset</div>
+                <div id="edit-button" class="button">Edit</div>
                 <div id="options-button" class="button">Options</div>
                 <div id="logout-button" class="button">Log Out</div>
             </div>
@@ -74,9 +75,9 @@
     
         <div id="login-screen">
             <div id="login-container">
-                <label for="username-input">Username</label>
+                <label for="username-input">Username <span class="info-span">KentGardner</span></label>
                 <input type="text" name="username-input" id="username-input" spellcheck="false" autocomplete="off">
-                <label for="username-input">Password</label>
+                <label for="username-input">Password <span class="info-span">password</span></label>
                 <input type="password" name="password-input" id="password-input" spellcheck="false" autocomplete="off">
                 <div id="error-message">Invalid username or password</div>
                 <div id="enter-button">Enter</div>
