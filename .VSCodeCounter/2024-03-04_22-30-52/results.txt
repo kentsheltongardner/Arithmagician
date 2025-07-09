@@ -1,0 +1,46 @@
+Date : 2024-03-04 22:30:52
+Directory : c:\Users\kents\Desktop\Capstone\prototype\ts
+Total : 22 files,  4413 codes, 542 comments, 619 blanks, all 5574 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         22 |      4,413 |        542 |        619 |      5,574 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                          |         22 |      4,413 |        542 |        619 |      5,574 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\kents\Desktop\Capstone\prototype\ts\camera.ts     | TypeScript |        153 |          6 |         21 |        180 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\compressor.ts | TypeScript |         14 |          0 |          0 |         14 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\constants.ts  | TypeScript |        430 |         29 |         43 |        502 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\copier.ts     | TypeScript |         57 |          0 |          5 |         62 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\data.ts       | TypeScript |        132 |         11 |         17 |        160 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\editor.ts     | TypeScript |      1,584 |         80 |        142 |      1,806 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\fps.ts        | TypeScript |         27 |          0 |          3 |         30 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\game.ts       | TypeScript |      1,324 |        123 |        215 |      1,662 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\images.ts     | TypeScript |        184 |          3 |         29 |        216 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\index.ts      | TypeScript |          7 |          0 |          1 |          8 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\input.ts      | TypeScript |         43 |          6 |          3 |         52 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\laser.ts      | TypeScript |         24 |          0 |          2 |         26 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\memory.ts     | TypeScript |         55 |          4 |          2 |         61 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\point.ts      | TypeScript |         31 |          0 |          8 |         39 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\rational.ts   | TypeScript |         86 |          0 |          8 |         94 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\rect.ts       | TypeScript |         63 |          0 |          7 |         70 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\shaders.ts    | TypeScript |          0 |        279 |         90 |        369 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\size.ts       | TypeScript |         25 |          0 |          6 |         31 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\sounds.ts     | TypeScript |         69 |          1 |          8 |         78 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\test.ts       | TypeScript |         12 |          0 |          2 |         14 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\vector.ts     | TypeScript |         26 |          0 |          5 |         31 |
+| c:\Users\kents\Desktop\Capstone\prototype\ts\world.ts      | TypeScript |         67 |          0 |          2 |         69 |
+| Total                                                      |            |      4,413 |        542 |        619 |      5,574 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+

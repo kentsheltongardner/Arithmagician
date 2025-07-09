@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+
+}
+
+.image-asset {
+    display: none;
+}
+canvas {
+    position: fixed;
+    image-rendering: pixelated;
+    cursor: none;
+}
+#cutout-canvas {
+    display: none;
+}

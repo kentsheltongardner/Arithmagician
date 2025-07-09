@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    user-select: none;
+}
+
+img {
+    display: block;
+    image-rendering: pixelated;
+}
+h1 {
+    font-size: 24px;
+}
+input, select, textarea {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+textarea {
+    resize: none;
+}
+
+
+aside {
+    /* Width set to make tileset icons 2x size */
+    width: 437px;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
+#function-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    gap: 5px;
+    background-color: black;
+}
+
+#file-bar {
+    display: flex;
+    gap: 10px;
+}
+.file-button {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(94, 92, 92);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    flex: 1;
+}
+
+
+#layer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.column-label {
+    text-align: center;
+}
+input[type='checkbox'] {
+    accent-color: rgb(109, 106, 106);
+}
+
+.build-box {
+    height: 100px;
+    background-color: rgb(21, 20, 20);
+    flex: 1;
+    border-radius: 3px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.build-grid {
+    display: none;
+    visibility: hidden;
+}
+.build-grid.active {
+    display: grid;
+    visibility: visible;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.build-icon.selected {
+    outline: white solid 3px;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.75);
+}
+.build-icon > img {
+    width: 100%;
+}
+
+#editor-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.image-asset {
+    visibility: none;
+    display: none;
+}
+
+.checkbox-row {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-row > input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+option:disabled {
+    background-color: gray;
+}
+
+.instruction-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input.invalid {
+    color: red;
+}
+
+#load-button {
+    position: relative;
+}
+#load-input {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.0;
+}
+#load-input * {
+    cursor: pointer;
+}
